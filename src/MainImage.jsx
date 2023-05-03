@@ -38,7 +38,11 @@ const SubTitle = styled.div`
 font-size: 48px;
 margin-top: 20px;
 padding-left: 10px;
-color: rgba(0,0,0,0.5)
+color: rgba(0,0,0,0.5);
+transform: translate(-50%, -50%);
+position: absolute;
+top: 50%;
+left: 50%;
 `;
 
 export default function MainImage(){
